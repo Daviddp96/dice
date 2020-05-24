@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>D I C E</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <section id="top">
+            <h1>The Dice Game</h1>
+
+            <div class="dice-container">
+
+                <div class="dice">
+                    <h3><em>Player 1</em></h3>
+                    <img src="assets/5.png" id="player1-dice" class="dice-img" alt="5">
+                </div>
+
+                <div class="dice">
+                    <h3><em>Player 2</em></h3>
+                    <img src="assets/5.png" id="player2-dice" class="dice-img" alt="5">
+                </div>
+
+            </div>
+
+            <div class="button-container">
+                <button class="roll-button" onclick="clicked()">Roll!</button>
+            </div>
+
+        </section>
+
+        <section id="mid">
+            <h2>About</h2>
+            <p>
+                Enough fights, enough arguments, end all discussions by rolling the dice!
+                Sit with your partner, pick a die each, hit the button and see who wins.
+                It's as simple as that!<br><br>
+                This site is an application manipulating the DOM with pure vanilla Javascript, 
+                using random number generation with <em>Math.Random()</em> and <em>Math.Floor()</em> methods,
+                along with a delayed loop to make visible dice image swaps before showing the final result.
+            </p>
+        </section>
+        <footer>
+            <p>Want to see more projects? 🎲  🎲</p>
+        </footer>
+        <script src="index.js" charset="utf-8"></script>
+    </body>
+</html>
