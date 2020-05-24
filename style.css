@@ -22,10 +22,10 @@ h1 {
     width: 50%;
 }
 
-@media (max-width: 800px) { 
+@media (max-width: 767px) { 
 
     h1 {
-        font-size: 6rem;
+        font-size: 4.7rem;
     }
 
     .dice-container {
@@ -81,6 +81,13 @@ h1 {
     color: #ff443a;
     cursor: pointer;
     transform: translateY(4px);
+}
+
+
+@media (max-width: 767px) {
+    .roll-button {
+        font-size: 1.5rem;
+    }
 }
 
 
